@@ -1,0 +1,235 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f8f8f8;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 16px 0;
+  z-index: 1000;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.header a {
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+  margin: 0 10px; /* Add spacing between links */
+}
+
+/* Adjusts the font size and padding for smaller screens */
+@media only screen and (max-width: 700px) {
+  .header a {
+    font-size: 14px; /* Smaller font size */
+    padding: 10px 8px; /* Smaller padding */
+  }
+}
+
+.name {
+  font-size: 50px; /* Large font size for the name */
+  color: #333; /* Adjust the color as needed */
+  margin-top: 20px; /* Space between the image and the name */
+  text-align: center; /* Center-align the text */
+}
+
+.description {
+  font-size: 26px; /* Smaller than the name */
+  color: #666; /* A lighter color for the subheading */
+  text-align: center; /* Center-align the text */
+}
+
+/* Section Styles */
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+section h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+/* About Section */
+#about {
+  background: #f4f4f4;
+  padding: 200px 0; /* Increased padding for larger section */
+}
+
+.profile-pic {
+  width: 400px;  /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  margin: 0 auto; /* Centers the image */
+  display: block;
+  opacity: 0; /* Initially hide the image */
+  transition: opacity 2s ease-in-out; /* Smooth transition for the fade-in effect */
+}
+.fade-in {
+  opacity: 1;
+}
+
+
+/* Experience, Education, Leadership Sections */
+#experience {
+  background: #fff;
+}
+
+/* Projects Section */
+#projects {
+  background: #f4f4f4;
+}
+
+#education {
+  background: #fff;
+}
+
+#leadership {
+  background: #f4f4f4;
+}
+
+/* Skills Section */
+#skills {
+  background: #fff;
+}
+
+/* Contact Section */
+#contact {
+  background: #f4f4f4;
+}
+
+/* Card Styles for Projects or Skills */
+.card {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 700px) {
+  .header, .container, section {
+    padding: 0 10px;
+  }
+
+  .header a {
+    padding: 12px 10px
+    ;
+  }
+  
+  section h1 {
+  font-size: 24px;
+  }
+  }
+  
+  /* Smooth transitions for hover effects */
+  a, button {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  /* Button Styles */
+  .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  }
+  
+  .button:hover {
+  background: #444;
+  }
+  
+  /* Form Styles */
+  input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  }
+  
+  input[type="submit"] {
+  width: 100%;
+  border: none;
+  display: block;
+  background: #5cb85c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+  background: #4cae4c;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+  text-align: center;
+  }
+
+  .resume-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Removes underline from links */
+}
+
+.button:hover {
+    background: #444;
+}
+
+@keyframes fadeInEffect {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  animation: fadeInEffect 1.5s ease-in-out forwards;
+}
+
