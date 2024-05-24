@@ -1,11 +1,12 @@
 .photos-block {
-    background-color: #ff8c00;
+    background-color: #ff8c00 !important; /* Ensure background color is applied */
+    padding: 10px; /* Add some padding for better visibility */
 }
 
 .photos-container {
     display: flex;
     justify-content: space-between;
-    /* gap: 10px; Adjust the gap between photos */
+    gap: 10px; /* Adjust the gap between photos */
 }
 
 .photo {

@@ -1,7 +1,8 @@
 .experience-block {
-    background-color: #32cd32; /* Set background color to green */
-    height: 275px;
+    background-color: #32cd32 !important; /* Set background color to green */
+    height: 275px!important;
 }
+
 
 .experience-entry {
     display: flex;
@@ -11,7 +12,7 @@
 
 .experience-logo {
     width: 95px; /* Adjust the size of the logo */
-    height:90px; /* Adjust the size of the logo */
+    height: 90px; /* Adjust the size of the logo */
     margin-right: 10px; /* Space between the logo and the text */
 }
 

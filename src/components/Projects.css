@@ -1,7 +1,7 @@
 .projects-block {
-    background-color: #c110d8; /* Set background color to green */
+    background-color: #c110d8!important; /* Set background color to green */
     padding: 1rem;
-    height: 325px;
+    height: 325px!important;
 }
 
 .project-entry {
