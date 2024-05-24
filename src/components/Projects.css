@@ -1,0 +1,35 @@
+.projects-block {
+    background-color: #c110d8; /* Set background color to green */
+    padding: 1rem;
+    height: 325px;
+}
+
+.project-entry {
+    display: flex;
+    align-items: center;
+    background-color: #FFD700;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000; /* Ensure the text color is black */
+    transition: transform 0.2s;
+}
+
+.project-entry:hover {
+    transform: scale(1.05);
+}
+
+.project-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: 50px; /* Adjust the size of the logo */
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+.project-entry h3 {
+    margin: 0;
+}
+
+.project-entry p {
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+.photos-block {
+    background-color: #ff8c00;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; Adjust the gap between photos */
+}
+
+.photo {
+    width: 125px; /* Ensure each photo is 125x125 pixels */
+    height: 125px; /* Ensure each photo is 125x125 pixels */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border: 2px solid black; /* Add a border around each photo */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}

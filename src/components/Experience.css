@@ -1,0 +1,25 @@
+.experience-block {
+    background-color: #32cd32; /* Set background color to green */
+    height: 275px;
+}
+
+.experience-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.experience-logo {
+    width: 95px; /* Adjust the size of the logo */
+    height:90px; /* Adjust the size of the logo */
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+.experience-entry h3 {
+    margin: 0;
+}
+
+.experience-entry p {
+    margin: 0;
+    font-style: italic;
+}
